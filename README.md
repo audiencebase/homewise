@@ -25,8 +25,9 @@ A professional, modern dashboard for testing and analyzing real estate propertie
 ## 🔑 API Key Setup
 
 1. Get your API key from [Homewise API](https://www.sariphi.ai/api/homewise)
-2. Enter it in the dashboard configuration
-3. Your key is automatically saved in localStorage
+2. Use `https://www.sariphi.ai/api/homewise/avm-analysis` for all AVM analysis requests
+3. Enter your key in the dashboard configuration
+4. Your key is automatically saved in localStorage
 
 ## 📊 Usage
 
