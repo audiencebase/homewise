@@ -15,6 +15,13 @@ A professional, modern dashboard for testing and analyzing real estate propertie
 
 [View Live Dashboard](https://your-app-name.vercel.app)
 
+## 🌐 Deploying to Vercel
+
+1. Install the Vercel CLI: `npm install -g vercel`
+2. Run `npm run deploy` and follow the prompts to create a new Vercel project.
+3. After deployment, Vercel provides a free URL like `https://your-app-name.vercel.app`.
+4. Update the **Live Demo** link above with your new project URL.
+
 ## 💻 Local Development
 
 1. Clone the repository
