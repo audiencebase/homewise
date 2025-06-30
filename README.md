@@ -24,7 +24,7 @@ A professional, modern dashboard for testing and analyzing real estate propertie
 
 ## 🔑 API Key Setup
 
-1. Get your API key from [Homewise API](https://api.homewise.com)
+1. Get your API key from [Homewise API](https://www.sariphi.ai/api/homewise)
 2. Enter it in the dashboard configuration
 3. Your key is automatically saved in localStorage
 

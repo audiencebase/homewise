@@ -664,7 +664,7 @@
         // API Call
         async function callHomewiseAPI(addresses, apiKey) {
             try {
-                const response = await axios.post('https://api.homewise.com/avm-analysis', {
+                const response = await axios.post('https://www.sariphi.ai/api/homewise/avm-analysis', {
                     addresses: addresses
                 }, {
                     headers: {
@@ -693,7 +693,7 @@
         async function pollForResults(taskId, apiKey, maxAttempts = 30) {
             for (let i = 0; i < maxAttempts; i++) {
                 try {
-                    const response = await axios.get(`https://api.homewise.com/avm-analysis?id=${taskId}`, {
+                    const response = await axios.get(`https://www.sariphi.ai/api/homewise/avm-analysis?id=${taskId}`, {
                         headers: {
                             'Authorization': `Bearer ${apiKey}`
                         }
