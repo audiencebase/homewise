@@ -15,6 +15,13 @@ A professional, modern dashboard for testing and analyzing real estate propertie
 
 [View Live Dashboard](https://your-app-name.vercel.app)
 
+## 🌐 Deploying to Vercel
+
+1. Install the Vercel CLI: `npm install -g vercel`
+2. Run `npm run deploy` and follow the prompts to create a new Vercel project.
+3. After deployment, Vercel provides a free URL like `https://your-app-name.vercel.app`.
+4. Update the **Live Demo** link above with your new project URL.
+
 ## 💻 Local Development
 
 1. Clone the repository
@@ -24,9 +31,10 @@ A professional, modern dashboard for testing and analyzing real estate propertie
 
 ## 🔑 API Key Setup
 
-1. Get your API key from [Homewise API](https://api.homewise.com)
-2. Enter it in the dashboard configuration
-3. Your key is automatically saved in localStorage
+1. Get your API key from [Homewise API](https://www.sariphi.ai/api/homewise)
+2. Use `https://www.sariphi.ai/api/homewise/avm-analysis` for all AVM analysis requests
+3. Enter your key in the dashboard configuration
+4. Your key is automatically saved in localStorage
 
 ## 📊 Usage
 
