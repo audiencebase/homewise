@@ -22,11 +22,21 @@ A professional, modern dashboard for testing and analyzing real estate propertie
 3. Enter your Homewise API key
 4. Start analyzing properties!
 
+## 🚀 Deployment Guide for Beginners
+
+1. Run `npm install` to install dependencies.
+2. Run `npx vercel login` to authenticate.
+3. Run `npx vercel --prod` (or `npm run deploy`) to deploy.
+
+### Troubleshooting
+
+- **Missing credentials**: If you receive errors about missing credentials, run `npx vercel login` again and verify your account.
+- **CLI not found**: Install the Vercel CLI globally with `npm install -g vercel` or use `npx vercel` to run it without installing.
+
 ## 🔑 API Key Setup
 
-1. Get your API key from [Homewise API](https://api.homewise.com)
-2. Enter it in the dashboard configuration
-3. Your key is automatically saved in localStorage
+1. Enter your Homewise API key in the dashboard configuration.
+2. Your key is automatically saved in localStorage.
 
 ## 📊 Usage
 
